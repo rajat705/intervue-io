@@ -1,0 +1,46 @@
+.hero-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Sora', sans-serif;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  color: #555555;
+  font-family: 'Sora', sans-serif;
+  margin-bottom: 40px;
+}
+
+.search-bar {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 999px;
+  padding: 12px 20px;
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.search-icon {
+  color: #999999;
+  margin-right: 10px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  font-family: 'Sora', sans-serif;
+  color: #333333;
+  width: 100%;
+}

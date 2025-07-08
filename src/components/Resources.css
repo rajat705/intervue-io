@@ -1,0 +1,55 @@
+.resources-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 44px;
+  padding: 60px 40px;
+  background-color: #ffffff;
+}
+
+.resource-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.resource-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-family: 'Sora', sans-serif;
+}
+
+.resource-level {
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+.resource-category {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999999;
+  letter-spacing: 0.5px;
+}
+
+.resource-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-family: 'Sora', sans-serif;
+}
+
+.resource-description {
+  font-size: 14px;
+  color: #666666;
+  font-family: 'Sora', sans-serif;
+}
